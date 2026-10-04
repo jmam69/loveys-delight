@@ -66,7 +66,7 @@ window.addEventListener('keydown', e => {
 });
 window.addEventListener('keyup', e => keys[e.key.toLowerCase()] = false);
 
-function rand(min, max) { return Math.random() * (max - min) + min; }a
+function rand(min, max) { return Math.random() * (max - min) + min; }
 function randInt(min, max) { return Math.floor(rand(min, max + 1)); }
 
 function showMessage(text, duration = 2000) {
